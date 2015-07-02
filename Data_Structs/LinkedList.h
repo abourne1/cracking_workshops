@@ -11,6 +11,7 @@ class LinkedList
     public:
         LinkedList();
         LinkedList(int data);
+        Node *getHead();
         Node *addFront(int data);
         Node *addBack(int data);
         bool removeFront();

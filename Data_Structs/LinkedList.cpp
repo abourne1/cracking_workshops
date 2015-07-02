@@ -12,6 +12,11 @@ LinkedList::LinkedList(int d)
     head= new Node(d);
 }
 
+Node *LinkedList::getHead()
+{
+    return head;
+}
+
 Node* LinkedList::addFront(int d)
 {
     Node *temp = new Node(d);
