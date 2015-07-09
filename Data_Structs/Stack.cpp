@@ -36,6 +36,11 @@ int Stack::size() {
 	return sSize;
 }
 
+bool Stack::empty() {
+
+	return sSize == 0;
+}
+
 void Stack::print() 
 {
 	Node* cursor = top;

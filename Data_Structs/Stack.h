@@ -35,6 +35,10 @@ public:
 	int size();
 
 	// Pre:  true
+	// Post: return true if the stack is empty
+	bool empty();
+
+	// Pre:  true
 	// Post: outputs the contents of the stack
 	void print();
 	// Pre:  true
