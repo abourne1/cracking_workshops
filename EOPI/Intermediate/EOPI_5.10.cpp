@@ -73,7 +73,7 @@ int main()
 		std::cout<<"x: "; std::cin>>x; 
 		std::cout<<"y: "; std::cin>>y; 
 		// std::bitset<10> A(x); std::bitset<10> B(y);
-	    // std::cout<<"x = "<<A.to_string()<<"\ny = "<<B.to_string()<<std::endl; 
+	    	// std::cout<<"x = "<<A.to_string()<<"\ny = "<<B.to_string()<<std::endl; 
 		unsigned int ans = GCD(x, y);
 		std::cout<<"gcd = "<<ans<<std::endl;
 	}
