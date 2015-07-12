@@ -1,4 +1,4 @@
-# cracking_workshops
+# Cracking Workshops
 Get ready for tech Interviews!
 
 1. This is an easy way to follow/run/test exercises from the Cracking the Coding Interviews book.
