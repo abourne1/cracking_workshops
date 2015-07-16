@@ -1,3 +1,7 @@
+// Give a linear time non-recursive function that reverses a singly linked list. 
+// The function should use no more than constant storage 
+// beyond that needed for the list itself. 
+
 // TO RUN:
 // ______________________________________________
 // >> g++ -o 7.9 EOPI_7.9.cpp ../../Data_Structs/Node.cpp  ../../Data_Structs/LinkedList.cpp
