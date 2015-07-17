@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "LinkedList.h"
 
 LinkedList::LinkedList()
@@ -14,6 +15,11 @@ LinkedList::LinkedList(int d)
 Node *LinkedList::getHead()
 {
     return head;
+}
+
+void LinkedList::setHead(Node *n_head)
+{
+    head = n_head;
 }
 
 Node* LinkedList::addFront(int d)

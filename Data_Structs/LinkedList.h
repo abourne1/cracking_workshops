@@ -12,6 +12,7 @@ class LinkedList
         LinkedList();
         LinkedList(int data);
         Node *getHead();
+        void setHead(Node *n_head);
         Node *addFront(int data);
         Node *addBack(int data);
         bool removeFront();
