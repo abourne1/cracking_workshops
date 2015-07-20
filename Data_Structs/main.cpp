@@ -1,6 +1,7 @@
 #include <iostream>
 #include "LinkedList.h"
 #include "Stack.h"
+#include "BinarySearchTree.h"
 
 int main()
 {
@@ -53,5 +54,19 @@ int main()
 	// should be no elements anymore
 	std::cout<<"Stack of size "<< st.size() <<" and elements: "<<std::endl;
 	st.print();
+	//___________________________________________________________________________________
+	//___________________________________________________________________________________
+	std::cout<<"BinarySearchTree check:\n";
+	BinarySearchTree tree;
+	tree.insert(10);
+	tree.insert(5);
+	tree.insert(8);
+	tree.insert(15);
+	tree.insert(3);
+	tree.insert(4);
+	tree.insert(17);
+	tree.insert(12);
+
+	tree.print();
 	return 0;
 }
