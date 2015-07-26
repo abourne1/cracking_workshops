@@ -1,7 +1,5 @@
 
 
-
-
 // TO RUN:
 // ______________________________________________
 // >> g++ -o Morris MorrisTraversal.cpp ../Data_Structs/BinaryTreeNode.cpp ../Data_Structs/BinarySearchTree.cpp
@@ -13,13 +11,13 @@
 #include <memory>
 #include "../Data_Structs/BinarySearchTree.h"
 
-// Seriously, this is a quite tricky
+// Seriously, this is quite tricky
 // so for better understading I would recommend looking here 
 // http://geeksquiz.com/threaded-binary-tree/
-// Not the updates to the poiters in the tree
+// Note the updates to the pointers in the tree
 // which are later re-set back
 
-// note this is not thread safe
+// This is not thread safe
 void MorrisTraversal(BinaryTreeNode *root)
 {	
 	BinaryTreeNode *curr = root;
@@ -50,7 +48,7 @@ void MorrisTraversal(BinaryTreeNode *root)
 }
 
 // meanwhile answer this question:
-// Why is this better than recursion version?
+// Why is this better than recursive approach?
 
 int main()
 {
@@ -78,4 +76,5 @@ int main()
 // Time complexity O(n)
 // so thats not really a win 
 // this approach is better because recursion implicitly uses O(h) additional space complexity,
-// while here it is O(1)!
+// while here it is O(1)! 
+// The trick was that we were modifying a tree during the process
