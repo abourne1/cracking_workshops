@@ -10,7 +10,7 @@ to do in your free time
 
 >>> Elements of Programming Interviews (EOPI):
 ———— Beginner:
-[ Arrays ]
+<h3> [ Arrays ] </h3>
 6.14: Check whether a 9 x 9 grid representing a partially completed
 Sudoku is valid. Specifically,check that no row, column, and 3 x 3 2D subarray contains duplicates. A O-value in the 2D array indicates that entry is blank; every other entry is in I1,9].
 
@@ -19,7 +19,7 @@ Sudoku is valid. Specifically,check that no row, column, and 3 x 3 2D subarray c
 6.16:  Implement a routine that takes a DxD Boolean array A together with an entry (x,y) and flips the color of the region associated with (x,y). See Figure 6.5 for an example of flipping.
 
 
-[ Strings ]
+<h3> [ Strings ] </h3> 
 6.18: Implement run-length encoding and decoding functions. Assume the string to be encoded consists of letters of the alphabet, with no digits, and the string to be decoded is a valid encoding.
 
 6.19: Implement a function for reversing the words in a string. Your function should use 0(1) space.
