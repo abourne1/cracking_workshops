@@ -57,6 +57,13 @@ and F. Your code should use 0(1) additional storage-it should reuse the nodes fr
 
 9.12: Given two nodes in a binary tree T,design an algorithm that computes their LCA (least common ancestor). Assume that each node has a parent pointer. The tree has n nodes and height h. Your algorithm should run in 0(1) space and O(h) time.
 
+<h4> [ Heaps ]</h4>
+
+10.5: Design an O(n logk) time algorithm that reads a sequence of n
+elements and for each element, starting from the k-th element, prints the k-th largest element read up to that point. The length of the sequence is not known in advance. Your algorithm cannot use more than O(k) additional storage.
+
+10.6: The input consists of a very long sequence of numbers. Each number is at most k positions away from its correctly sorted position. Design an algorithm that outputs the numbers in the correct order and uses O(k) storage, independent of the number of elements processed.
+
 ———— Intermediate:
 <h3> [ Stack ] </h3>
 8.6: Design an algorithm that processes buildings as they are presented to it and tracks the buildings that have a view of the sunset. The number of buildings is not known in advance. Buildings are given in east-to-west order and are specified by their heights. The amount of memory your algorithm uses should depend solely on the number of buildings that have a view; in particular it should not depend on the number of buildings processed.

@@ -4,6 +4,9 @@
 // and uses 0(1) additional space. 
 // Your algorithm cannot modify the tree
 
+#include <iostream>
+#include "../../Data_Structs/BinarySearchTree.h"
+
 // If you want better understanding of trees
 // Look at "MorisTraversal.cpp" in the folder "Other"
 // it might give some ideas
@@ -15,7 +18,7 @@ void InOrderTraversal(BinaryTreeNode *r)
 		return;
 	}
 
-	BinaryTreeNode *prev = NULL, curr = r, next;
+	BinaryTreeNode *prev = NULL, *curr = r, *next;
 	while(curr) {
 		if(!prev || curr == prev->getLeft() || curr == prev->getRight()) {
 			// i.e. prev is the parent of curr
@@ -56,5 +59,23 @@ void InOrderTraversal(BinaryTreeNode *r)
 
 int main()
 {
+	Cannot run because I havent added parent fields to BinarySearchTree
+	// BinarySearchTree tree;
+	// // this is the root so level 1
+	// tree.insert(10);
+	// tree.insert(5); // level 2 
+	// tree.insert(8); // level 3 
+	// tree.insert(15); // level 2
+	// tree.insert(3); // level 3 
+	// tree.insert(4); // level 4 
+	// tree.insert(17); // level 3
+	// tree.insert(12); // level 3
+	// tree.insert(21); // level 4	
+	// // print normally
+	// std::cout<<"______________________________"<<std::endl;
+	// std::cout<<"Binary search tree: "<<std::endl;
+	// tree.print();
+	// std::cout<<"______________________________"<<std::endl;
+	// InOrderTraversal(tree.getRoot());
 	return 0;
 }
