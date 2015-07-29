@@ -69,13 +69,16 @@ elements and for each element, starting from the k-th element, prints the k-th l
 8.6: Design an algorithm that processes buildings as they are presented to it and tracks the buildings that have a view of the sunset. The number of buildings is not known in advance. Buildings are given in east-to-west order and are specified by their heights. The amount of memory your algorithm uses should depend solely on the number of buildings that have a view; in particular it should not depend on the number of buildings processed.
 
 <h3> [ Queue ] </h3>
-8.10  Implement a queue API using an array for storing elements. Your API should include a constructor function, which takes as argument the capacity of the queue, enqueue and dequeue functions, a size function, which returns the number of elements stored, and implement dynamic resizing.
+8.10:  Implement a queue API using an array for storing elements. Your API should include a constructor function, which takes as argument the capacity of the queue, enqueue and dequeue functions, a size function, which returns the number of elements stored, and implement dynamic resizing.
 
-8.12 How would you implement a queue given two stacks and 0(1) additional storage?Your implementation should be efficient-the time to do a sequence of m combined enqueues and dequeues should be O(m).
+8.12: How would you implement a queue given two stacks and 0(1) additional storage?Your implementation should be efficient-the time to do a sequence of m combined enqueues and dequeues should be O(m).
+
+<h3> [ Sorting ] </h3>
+11.4: Design analgorithm that takes.an abs-sorted array A and a number k, and returns a pair of indices of elements in A that sum up to k. For example, if the input to your algorithm is the array in Figure 11.2and k = 167,your algorithm should output (3,7). Output (-1, -1) if there is no such pair. (See page 87 in the book)
 
 ———— Intermediate/Advanced:
 <h3> [ Linked List ]</h3>
 7.12:  Implement a function which takes as input a pointer to the head of a postings list L, and returns a copy of the postings list. Your function should take O(n) time, where 11 is the length of the postings list and should use 0(1) storage beyond that required for the n nodes in the copy. You can modify the original list, but must restore it to its initial state before returning.
 
 <h3> [ Queue ] </h3> 
-8.11  Implement a queue using two unsigned integer-valued variables. Assume that the only elements pushed into the queue are integers in [0,9]. Your program should work correctly when 0 are the only elements in the queue. What is the maximum number of elements that can be stored in the queue for it to operate correctly?
+8.11:  Implement a queue using two unsigned integer-valued variables. Assume that the only elements pushed into the queue are integers in [0,9]. Your program should work correctly when 0 are the only elements in the queue. What is the maximum number of elements that can be stored in the queue for it to operate correctly?
