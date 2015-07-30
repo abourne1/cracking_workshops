@@ -1,9 +1,19 @@
 # Cracking Workshops
 Get ready for tech Interviews!
+This is an easy way to follow/run/test and see even if you code in other language.
 
-1. This is an easy way to follow/run/test exercises from the Cracking the Coding Interviews book.
-
-2. There will be more tech books added later.
+<h4>Exercises are presented from the following books:</h4>
+<b> [ and structure of this repo ] </b>
+1. Cracking the Coding Interviews (CTCI)
+     > see folders in current dir:
+                   > Beginner
+                   > Intermediate
+2. Elements of Programming Interviews (EOPI)
+     > see folder EOPI in current dir and inside:
+                   > Beginner
+                   > Intermediate
+3. External websites, books
+     > see folder Other in current dir
 
 # Additional Problems 
 to do in your free time
