@@ -3,17 +3,17 @@ Get ready for tech Interviews!
 This is an easy way to follow/run/test and see even if you code in other language.
 
 <h4>Exercises are presented from the following books:</h4>
-<b> [ and structure of this repo ] </b>
-1. Cracking the Coding Interviews (CTCI)
-     > see folders in current dir:
-                   > Beginner
-                   > Intermediate
-2. Elements of Programming Interviews (EOPI)
-     > see folder EOPI in current dir and inside:
-                   > Beginner
-                   > Intermediate
-3. External websites, books
-     > see folder Other in current dir
+<b> [ and structure of this repo ] </b> <br />
+1. Cracking the Coding Interviews (CTCI)  <br />
+     > see folders in current dir: <br />
+                   > Beginner <br />
+                   > Intermediate <br />
+2. Elements of Programming Interviews (EOPI)  <br />
+     > see folder EOPI in current dir and inside: <br />
+                   > Beginner <br />
+                   > Intermediate <br />
+3. External websites, books <br />
+     > see folder Other in current dir <br />
 
 # Additional Problems 
 to do in your free time
